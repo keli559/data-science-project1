@@ -1,3 +1,8 @@
+##---0. Download the data from webpage
+url = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+download.file(url, destfile='./data.zip', method='wget')
+unzip('./data.zip')
+
 ##---1.Merges the training and the test sets to create one data set.
 ## load X_train, X_test, and merge them into xAll
 # X data includes 561 columns (variables) described in 'features.txt' file

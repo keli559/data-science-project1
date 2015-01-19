@@ -29,6 +29,7 @@ Q: What does the program do to the data?
 Q: What is the output of the program?
 
 Two data sets are saved, as a result.
+
 1. It saves the data set, extracted to contain only measurements on the mean and standard deviation for each measurement. Filename: './extract.txt'
 2. It saves the data set, extracted to calculate average of each variable in './extract.txt' for each activity and each sujectID. Filename: './mean.txt'
 

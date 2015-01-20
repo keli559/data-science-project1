@@ -75,6 +75,7 @@ write.table(xAll3Sub, "./extracted.txt", sep="\t")
 ## Loop over activity number from 1 to 6, extract records for each activity,
 xAll3Sub[, activities:=xAll3$activities]
 xAll3Sub[, subjectID:=xAll3$subjectID]
+library(dplyr)
 meanStdMeans = xAll3Sub %>% group_by(activities, subjectID) %>% summarise_each(funs(mean))
 
 # save the second required data (mean of each extracted columns over each activity)

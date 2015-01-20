@@ -1,6 +1,6 @@
 A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
 
-1. The variables:
+>>The variables:
 
 (Quoted from feature_info.txt) 
 
@@ -62,7 +62,7 @@ tBodyGyroJerkMean
 For example:
 ''fBodyBodyGyroJerkMag-mean()'' - the mean of Fast Fourier Transform on Body Body Gyroscope Jerk Magnitude
 
-2. The data source
+>> The data source
 
 
 Location: ./UCI HAR Dataset/test or /train
@@ -83,7 +83,7 @@ y_test/train.txt: The activity number during which the measurement takes place.
 Location ./UCI HAR Dataset/
 activity_labels.txt : link between activity numbers and descriptive activities. ex 1 is 'Walking', 2 is 'Walking upstairs'
 
-3. Data ELT
+>> Data ELT
 ![alt tag](https://cloud.githubusercontent.com/assets/10563908/5811649/28f5d95e-a028-11e4-87fc-c345313488c5.jpg)
 
 

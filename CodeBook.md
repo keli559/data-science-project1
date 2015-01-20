@@ -84,6 +84,7 @@ Location ./UCI HAR Dataset/
 activity_labels.txt : link between activity numbers and descriptive activities. ex 1 is 'Walking', 2 is 'Walking upstairs'
 
 >> Data ELT
+
 ![alt tag](https://cloud.githubusercontent.com/assets/10563908/5811649/28f5d95e-a028-11e4-87fc-c345313488c5.jpg)
 
 

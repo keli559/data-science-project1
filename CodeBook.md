@@ -84,3 +84,4 @@ activity_labels.txt : link between activity numbers and descriptive activities. 
 
 3. Data ELT
 
+file:///tmp/project1.jpg

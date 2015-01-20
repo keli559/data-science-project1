@@ -82,8 +82,5 @@ y_test/train.txt: The activity number during which the measurement takes place.
 Location ./UCI HAR Dataset/
 activity_labels.txt : link between activity numbers and descriptive activities. ex 1 is 'Walking', 2 is 'Walking upstairs'
 
-
-
-
 3. Data ELT
 

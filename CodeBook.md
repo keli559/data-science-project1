@@ -1,6 +1,6 @@
 A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
 
-1.The variables:
+1. The variables:
 
 (Quoted from feature_info.txt) 
 
@@ -63,6 +63,7 @@ For example:
 ''fBodyBodyGyroJerkMag-mean()'' - the mean of Fast Fourier Transform on Body Body Gyroscope Jerk Magnitude
 
 2. The data source
+
 
 Location: ./UCI HAR Dataset/test or /train
 

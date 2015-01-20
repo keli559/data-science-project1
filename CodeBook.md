@@ -64,19 +64,23 @@ For example:
 
 2. The data source
 
-./UCI HAR Dataset/test or /train
+Location: ./UCI HAR Dataset/test or /train
 
 Testing data: X_test.txt
+
 Training data: X_train.txt
+
 Both contain 561 columns containing 561 variables named in ./features.txt.
+
 Each line is a record. 
 
 subject_test/train.txt: The subject ID who participated the measurement of each record
+
 y_test/train.txt: The activity number during which the measurement takes place.
 
 
-
-activity_labels.txt 
+Location ./UCI HAR Dataset/
+activity_labels.txt : link between activity numbers and descriptive activities. ex 1 is 'Walking', 2 is 'Walking upstairs'
 
 
 
